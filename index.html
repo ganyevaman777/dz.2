@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Title</title>
+    </head>
+    <body>
+        <div class="big">
+            <style>
+                .big{
+                    position: relative;
+                    width: 500px;
+                    height: 500px;
+                    background-color: red;
+                }
+                .small{
+                    background-color: aqua;
+                    width: 50px;
+                    height: 50px;
+                    position: absolute;
+                }
+            </style>
+            <div class="small"></div>
+        </div>
+        <button class="move">move</button>
+        <div class="container"><h1>0</h1></div>
+        <style>
+            .container{
+                width: 60px;
+                height: 50px;
+                border: 2px solid;
+                display: flex;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+            }
+        </style>
+    </body>
+    <script src="main.js"></script>
+</html>
